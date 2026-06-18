@@ -6,7 +6,7 @@ public class Department {
     private String deptName;
     private String hodName;
 
-    // Constructor
+    // Constructor with ID
     public Department(int deptId, String deptName, String hodName) {
         this.deptId = deptId;
         this.deptName = deptName;
