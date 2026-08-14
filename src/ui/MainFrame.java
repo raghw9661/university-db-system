@@ -16,6 +16,7 @@ public class MainFrame extends JFrame {
         // Add each panel as a tab
         tabs.addTab("Departments", new DepartmentPanel());
         tabs.addTab("Students",    new StudentPanel());
+        tabs.addTab("Course", new CoursePanel());
 
         // Add tabs pane to frame
         add(tabs);
